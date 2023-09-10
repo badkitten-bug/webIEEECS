@@ -1,7 +1,6 @@
 import React from 'react';
-import './Testimonio.css';
-
-function Testimonio({ nombre, cargo, testimonio, imagen }) {
+import '../../style-sheets/Testimonio.css';
+export function Testimonio({ nombre, cargo, testimonio, imagen }) {
   return (
     <div className="contenedor-testimonio">
       <img
@@ -18,4 +17,3 @@ function Testimonio({ nombre, cargo, testimonio, imagen }) {
   );
 }
 
-export default Testimonio;

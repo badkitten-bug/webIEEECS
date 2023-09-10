@@ -1,6 +1,6 @@
 import './App.css';
 import React, { useEffect, useState } from 'react';
-import Testimonio from './components/directivos/Testimonio.jsx';
+import {Testimonio} from './components/directivos/Testimonio.jsx';
 
 function App() {
   const [testimonios, setTestimonios] = useState([
@@ -21,7 +21,7 @@ function App() {
     {
       id: 3,
       nombre: 'Sebastian Rakauskas',
-      cargo: 'Vicepresidente en IEEE CS UNTELS',
+      cargo: 'Web Master en IEEE CS UNTELS',
       testimonio: 'Lorem ipsum dolor sit amet consectetus adipisicin elit.',
       imagen: 'Sebas.jpg',
     },
