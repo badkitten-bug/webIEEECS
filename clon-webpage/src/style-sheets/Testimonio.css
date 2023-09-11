@@ -1,0 +1,34 @@
+/* Testimonio.css */
+
+/* Estilo para el contenedor de la tarjeta */
+.contenedor-testimonio {
+    display: flex;
+    align-items: center; /* Centra verticalmente la imagen y el texto */
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    max-width: 700px; /* Ancho máximo de la tarjeta */
+    height: 200px; /* Altura de la tarjeta */
+  }
+  
+  /* Estilo para la imagen */
+  .imagen-testimonio {
+    max-width: 150px; /* Limita el ancho de la imagen */
+    margin-right: 16px; /* Espacio entre la imagen y el texto */
+  }
+  
+  /* Estilo para el contenedor del texto */
+  .contenedor-texto-testimonio {
+    flex: 1; /* Permite que el texto ocupe el espacio restante */
+  }
+  
+  /* Estilos para el nombre y el cargo */
+  .nombre-testimonio {
+    font-weight: bold;
+  }
+  
+  .cargo-testimonio {
+    color: #888;
+  }
+  
