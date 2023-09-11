@@ -36,7 +36,7 @@ a{
 }
 
 .nav_toggler div{
-    width: 3rem;
+    width: 2.5rem;
     height: 0.2rem;
     margin: 0.4rem;
     background-color: white;
@@ -67,6 +67,7 @@ a{
 
 .nav_active{
     transform: translateX(0);
+    text-decoration: underline white;
 }
 
 .toggle .line1{

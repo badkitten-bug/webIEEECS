@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import '../style-sheets/Header.css';
+import '../../style-sheets/Header.css';
 
 const Header = () => {
     const[active,setActive]=useState("nav_menu");
@@ -11,12 +11,12 @@ const Header = () => {
     }
   return (
     <nav className="nav">
-        <a href='#' className='nav_brand'><img className='img_brand' src='./src/assets/imagenes/logo-header.jpg' alt='logo de ieee cs'></img></a>
+        <a href='#' className='nav_brand'><img className='img_brand' src='./public/assets/imagenes/logo-header.jpg' alt='logo de ieee cs'></img></a>
         <ul className={active}>
-            <li className='nav_item'><a href="#" className="nav_item">Inicio</a></li>
-            <li className='nav_item'><a href="#" className="nav_item">Nosotros</a></li>
-            <li className='nav_item'><a href="#" className="nav_item">Eventos</a></li>
-            <li className='nav_item'><a href="#" className="nav_item">contáctanos</a></li>
+            <li className='nav_item'><a href="#" className="nav_link">Inicio</a></li>
+            <li className='nav_item'><a href="www.google.com" className="nav_link">Nosotros</a></li>
+            <li className='nav_item'><a href="#" className="nav_link">Eventos</a></li>
+            <li className='nav_item'><a href="#" className="nav_link">contáctanos</a></li>
         </ul>
         <div onClick={navToggle} className={toggleIcon}>
             <div className="line1"></div>
