@@ -1,6 +1,7 @@
 import './App.css';
 import React, { useEffect, useState } from 'react';
 import {Testimonio} from './components/directivos/Testimonio.jsx';
+import Header from './components/header/Header';
 
 function App() {
   const [testimonios, setTestimonios] = useState([
@@ -44,14 +45,14 @@ function App() {
 
   return (
     <div>
+      <Header/>
       {testimonios.map((testimonio) => (
         <Testimonio
           key={testimonio.id}
           nombre={testimonio.nombre}
           cargo={testimonio.cargo}
           testimonio={testimonio.testimonio}
-          imagen={`/assets/imagenes/${testimonio.imagen}`}
-        />
+          imagen={`/assets/imagenes/${testimonio.imagen}`} />
       ))}
     </div>
   );
