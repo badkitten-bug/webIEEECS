@@ -1,12 +1,12 @@
 import React from 'react';
+import VictorImage from '../../assets/imagenes/Victor.jpg';
 function Testimonio() {
-  console.log("Testimonio");
   return (
     <div className="contenedor-testimonio">
       <img
         className="imagen-testimonio"
-        /* src={require('../../imagenes/VictorRaulHuamanSimeon.jpg')} */
-        alt="Foto de Pepo"
+        src={VictorImage} // Utiliza la imagen importada como fuente
+        alt="Foto de Victor Raul Huaman Simeon"
       />
       <div className="contenedor-texto-testimonio">
         <p className="nombre-testimonio">Victor Raul Huaman Simeon</p>
